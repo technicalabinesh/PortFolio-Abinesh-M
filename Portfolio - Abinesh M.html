@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinesh M — AI Engineer & Data Analyst</title>
+    <meta name="description"
+        content="Personal portfolio of Abinesh M. AI Engineer and Data Analyst specializing in GenAI, LangChain, RAG systems, Vector DBs, Python, and Power BI dashboards. Top 1% Topmate Mentor & Top 7 LinkedIn DS Creator.">
+    <meta name="keywords" content="Abinesh M, AI Engineer, Data Analyst, GenAI, LangChain, RAG, Pinecone, Chroma, FAISS, Power BI, Python, SQL, Topmate Mentor">
+    <meta name="author" content="Abinesh M">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Abinesh M — AI Engineer & Data Analyst">
+    <meta property="og:description" content="Building GenAI agents, RAG pipelines, Vector DBs, and data analytics dashboards. Top 1% Topmate Mentor.">
+    <meta property="og:image" content="profile.jpg?v=2">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand-logo">
+                <span class="brand-name">Abinesh M</span>
+                <span class="brand-dot"></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-cta">
+                <a href="https://drive.google.com/file/d/1gbJ6lSkR2GNpihN3bs0J8cSMHnvM-GDS/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm hide-mobile">
+                    <i class="fa-solid fa-file-pdf"></i> Resume CV
+                </a>
+                <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <div class="availability-badge">
+                        <span class="status-indicator"></span>
+                        <span>Open to GenAI & Data Analytics Roles</span>
+                    </div>
+
+                    <h1 class="hero-heading">
+                        AI Engineer & <br><span class="highlight-gradient">Data Analyst</span>
+                    </h1>
+
+                    <p class="hero-bio">
+                        Hi, I'm <strong>Abinesh M</strong>. I build GenAI applications, RAG pipelines with LangChain & LangGraph, Vector DB search (Pinecone, Chroma, FAISS), and turn complex datasets into actionable business dashboards. Recognized as a <strong>Top 1% Topmate Mentor</strong> and <strong>Top 7 LinkedIn Data Science Creator</strong> in India.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary btn-md">
+                            View Work <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1gbJ6lSkR2GNpihN3bs0J8cSMHnvM-GDS/view?usp=sharing" target="_blank" class="btn btn-secondary btn-md">
+                            <i class="fa-solid fa-file-pdf"></i> Resume / CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary btn-md">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-bar">
+                        <span class="social-text">Find me on</span>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abinesh555" target="_blank" aria-label="LinkedIn" class="social-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/technicalabinesh" target="_blank" aria-label="GitHub" class="social-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="mailto:m.abinesh555@gmail.com" aria-label="Email" class="social-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://topmate.io/abinesh555" target="_blank" aria-label="Topmate 1:1" class="social-icon" title="Topmate Mentorship">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-media">
+                    <div class="avatar-card">
+                        <div class="avatar-image-box">
+                            <img src="profile.jpg?v=2" alt="Abinesh M">
+                        </div>
+                        <div class="avatar-details">
+                            <div class="avatar-name">Abinesh M</div>
+                            <div class="avatar-title">B.Tech AI & Data Science @ SSMIET</div>
+                            <div class="avatar-location"><i class="fa-solid fa-location-dot"></i> Tamil Nadu, India</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Metrics Bar -->
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">11+</div>
+                        <div class="metric-label">Industry Certifications</div>
+                    </div>
+                    <div class="metric-card highlight">
+                        <div class="metric-value">Top 1%</div>
+                        <div class="metric-label">Topmate Global Mentor</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">Top 7</div>
+                        <div class="metric-label">LinkedIn DS Creator (IN)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">1000+</div>
+                        <div class="metric-label">Mentees Guided</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section-padding" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-heading">Engineered with Curiosity & Community Impact</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card content-card">
+                        <h3 class="card-heading">Background & Vision</h3>
+                        <p class="paragraph">
+                            I am a 4th-semester B.Tech student in <strong>Artificial Intelligence & Data Science</strong> at SSM Institute of Engineering and Technology (SSMIET), maintaining an 8.35 CGPA.
+                        </p>
+                        <p class="paragraph">
+                            My core technical focus centers on <strong>Generative AI, Agentic Workflows (LangChain, LangGraph, Model Context Protocol), Vector Databases (Pinecone, ChromaDB, FAISS), LLM RAG pipelines, and Data Analytics</strong>. I enjoy crafting intuitive end-to-end data systems — from cleaning raw data and deploying Gradio/Streamlit apps to analyzing statistical models and Power BI dashboards.
+                        </p>
+                        <p class="paragraph">
+                            As an active student community ambassador (Microsoft Fabric, AWS, Adobe, Snowflake), I regularly mentor peers and share educational data science content on LinkedIn.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="about-highlight-item">
+                                <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <div>
+                                    <strong>Education</strong>
+                                    <span>B.Tech AI & DS (2024–2027)</span>
+                                </div>
+                            </div>
+                            <div class="about-highlight-item">
+                                <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+                                <div>
+                                    <strong>Specialization</strong>
+                                    <span>GenAI, Vector DBs, RAG & BI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card education-card">
+                        <h3 class="card-heading"><i class="fa-solid fa-university"></i> Education Timeline</h3>
+                        
+                        <div class="education-timeline">
+                            <div class="timeline-entry">
+                                <span class="timeline-year">2024 — 2027</span>
+                                <h4 class="timeline-title">B.Tech in Artificial Intelligence & Data Science</h4>
+                                <p class="timeline-sub">SSM Institute of Engineering and Technology (SSMIET)</p>
+                                <div class="timeline-pills">
+                                    <span>CGPA: 8.35</span>
+                                    <span>Semester 4</span>
+                                </div>
+                            </div>
+
+                            <div class="timeline-entry">
+                                <span class="timeline-year">2023</span>
+                                <h4 class="timeline-title">Higher Secondary (Bio-Maths)</h4>
+                                <p class="timeline-sub">Sri Krishna Matric Hr Sec School, Oddanchatram</p>
+                                <div class="timeline-pills">
+                                    <span>Score: 86%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section-padding section-alt" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Work</span>
+                    <h2 class="section-heading">Selected Projects</h2>
+                    <p class="section-subheading">Practical applications in GenAI tools, data analysis, and visual dashboards.</p>
+                </div>
+
+                <div class="filter-bar">
+                    <button class="filter-tab active" data-filter="all">All</button>
+                    <button class="filter-tab" data-filter="genai">GenAI & AI Tools</button>
+                    <button class="filter-tab" data-filter="bi">BI & Dashboards</button>
+                    <button class="filter-tab" data-filter="analytics">Data Analytics & SQL</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-category="genai">
+                        <div class="project-header-bar genai-bar">
+                            <span class="project-type-tag">GenAI Tool</span>
+                            <i class="fa-solid fa-sparkles"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">AI Data Cleaner (Google Gemini)</h3>
+                            <p class="project-description">
+                                Streamlit web application powered by Google Gemini AI that automates dataset preprocessing. Detects missing values, cleans duplicate rows using RapidFuzz, and generates natural-language executive dataset summaries.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>Gemini AI</span>
+                                <span>Pandas</span>
+                                <span>RapidFuzz</span>
+                            </div>
+                            <div class="project-link-row">
+                                <a href="https://github.com/technicalabinesh/AI-Data-Cleaner-Using-Gemini" target="_blank" class="project-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" data-category="bi">
+                        <div class="project-header-bar excel-bar">
+                            <span class="project-type-tag">Excel Dashboard</span>
+                            <i class="fa-solid fa-table-cells"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Blinkit Portfolio Dashboard</h3>
+                            <p class="project-description">
+                                Interactive Excel dashboard analyzing inventory, sales performance, and portfolio return metrics. Features custom dynamic date filters, slicers, pivot tables, and visual KPI cards.
+                            </p>
+                            <div class="project-tags">
+                                <span>Excel</span>
+                                <span>Pivot Tables</span>
+                                <span>Data Modeling</span>
+                                <span>KPIs</span>
+                            </div>
+                            <div class="project-link-row">
+                                <a href="https://github.com/technicalabinesh/Blinkit-DashBoard-Data-Analysis-And-Dashboard-Creation-Using-Excel" target="_blank" class="project-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card" data-category="bi">
+                        <div class="project-header-bar powerbi-bar">
+                            <span class="project-type-tag">Power BI</span>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Amazon Prime Content & Sales Dashboard</h3>
+                            <p class="project-description">
+                                Comprehensive Power BI dashboard evaluating Amazon Prime Video catalog metrics. Includes DAX measure calculations for title breakdowns, ratings, genre trends, and release year distribution.
+                            </p>
+                            <div class="project-tags">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Data Viz</span>
+                            </div>
+                            <div class="project-link-row">
+                                <a href="https://github.com/technicalabinesh/Amazon-Sales-Dashboard-Project" target="_blank" class="project-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card" data-category="analytics">
+                        <div class="project-header-bar python-bar">
+                            <span class="project-type-tag">Python Analysis</span>
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Uber Rides Exploratory Data Analysis</h3>
+                            <p class="project-description">
+                                Exploratory data analysis on historical Uber trip datasets using Python. Extracted ride demand peaks, trip distance distributions, and hourly commuter trends using Seaborn and Matplotlib.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Seaborn</span>
+                                <span>EDA</span>
+                            </div>
+                            <div class="project-link-row">
+                                <a href="https://github.com/technicalabinesh/Uber-Rides-Data-Analysis-using-Python" target="_blank" class="project-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card" data-category="analytics">
+                        <div class="project-header-bar sql-bar">
+                            <span class="project-type-tag">SQL Database</span>
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Zepto Quick-Commerce Data Analysis</h3>
+                            <p class="project-description">
+                                SQL analysis on structured retail datasets. Executed complex queries, aggregations, window functions, and CTEs to examine order volumes and item category performance.
+                            </p>
+                            <div class="project-tags">
+                                <span>SQL</span>
+                                <span>Data Analysis</span>
+                                <span>Statistics</span>
+                            </div>
+                            <div class="project-link-row">
+                                <a href="https://github.com/technicalabinesh/Zepto-Data-Analysis-Using-SQL" target="_blank" class="project-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Matrix Section -->
+        <section class="section-padding" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Tech Stack</span>
+                    <h2 class="section-heading">Skills & Technical Capabilities</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- GenAI, RAG & Vector DBs -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-wand-magic-sparkles category-icon"></i>
+                            <h3>GenAI, RAG & Vector DBs</h3>
+                        </div>
+                        <p class="category-desc">Architecting intelligent agentic workflows and semantic retrieval engines.</p>
+                        <div class="skill-pills">
+                            <span class="pill pill-primary">LangChain</span>
+                            <span class="pill pill-primary">RAG Architecture</span>
+                            <span class="pill pill-primary">Pinecone</span>
+                            <span class="pill pill-primary">ChromaDB</span>
+                            <span class="pill pill-primary">FAISS</span>
+                            <span class="pill">LangGraph</span>
+                            <span class="pill">Model Context Protocol (MCP)</span>
+                            <span class="pill">Transformers</span>
+                            <span class="pill">Prompt Engineering</span>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning & DL -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-brain category-icon"></i>
+                            <h3>Machine Learning & Deep Learning</h3>
+                        </div>
+                        <p class="category-desc">Predictive algorithms, natural language processing, and computer vision.</p>
+                        <div class="skill-pills">
+                            <span class="pill pill-primary">Machine Learning (ML)</span>
+                            <span class="pill pill-primary">Deep Learning (DL)</span>
+                            <span class="pill pill-primary">NLP</span>
+                            <span class="pill pill-primary">ML Algorithms</span>
+                            <span class="pill pill-primary">Statistics</span>
+                            <span class="pill">TensorFlow</span>
+                            <span class="pill">Scikit-Learn (Sklearn)</span>
+                            <span class="pill">OpenCV</span>
+                            <span class="pill">Pillow</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Visualization & Analytics Hubs -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-column category-icon"></i>
+                            <h3>Data Visualization & Analytics</h3>
+                        </div>
+                        <p class="category-desc">Transforming complex datasets into executive dashboards and BI reporting hubs.</p>
+                        <div class="skill-pills">
+                            <span class="pill pill-primary">Power BI</span>
+                            <span class="pill pill-primary">Tableau</span>
+                            <span class="pill pill-primary">Excel (Advanced)</span>
+                            <span class="pill pill-primary">Databricks</span>
+                            <span class="pill">SQL</span>
+                            <span class="pill">Pandas & NumPy</span>
+                            <span class="pill">DAX & Data Modeling</span>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Processing Libraries -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon"></i>
+                            <h3>Frameworks, Libraries & Parsing</h3>
+                        </div>
+                        <p class="category-desc">App development frameworks, fast API servers, OCR, and data wrangling.</p>
+                        <div class="skill-pills">
+                            <span class="pill pill-primary">Python</span>
+                            <span class="pill pill-primary">Streamlit</span>
+                            <span class="pill pill-primary">Gradio</span>
+                            <span class="pill">Uvicorn</span>
+                            <span class="pill">Pydantic</span>
+                            <span class="pill">RapidFuzz</span>
+                            <span class="pill">PyPDF</span>
+                            <span class="pill">Tesseract OCR</span>
+                        </div>
+                    </div>
+
+                    <!-- AI Tools, Platforms & Automation -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-robot category-icon"></i>
+                            <h3>AI Tools, Platforms & Automation</h3>
+                        </div>
+                        <p class="category-desc">LLM platforms, data engineering hubs, and workflow automation.</p>
+                        <div class="skill-pills">
+                            <span class="pill pill-primary">Google AI Studio</span>
+                            <span class="pill pill-primary">ChatGPT</span>
+                            <span class="pill pill-primary">Gemini</span>
+                            <span class="pill pill-primary">DeepSeek</span>
+                            <span class="pill pill-primary">Claude</span>
+                            <span class="pill pill-primary">Microsoft Copilot</span>
+                            <span class="pill">Microsoft Foundry</span>
+                            <span class="pill">n8n</span>
+                            <span class="pill">Power Automate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Internships Section -->
+        <section class="section-padding section-alt" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Professional Experience</span>
+                    <h2 class="section-heading">Work Experience & Internships</h2>
+                    <p class="section-subheading">Roles across Amazon (AWS), Infosys, Microsoft, Deloitte, TCS, Accenture, and Lloyds Banking Group.</p>
+                </div>
+
+                <div class="experience-list">
+                    <!-- Amazon / AWS -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-brands fa-aws"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">AWS Student Builder & AWS Cloud Captain</h3>
+                                <span class="exp-org">Amazon Web Services (AWS) • Jan 2026 – Present</span>
+                            </div>
+                            <p class="exp-details">
+                                Awarded Bronze AWS Cloud Captain badge. Leading AWS Student Builder initiatives, developer community outreach, campus cloud programs, and technical workshops. Previously served as Campaign Manager Intern (Aug 2026 – Sep 2026).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Infosys -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Data Specialist & Data Analyst</h3>
+                                <span class="exp-org">Infosys • Apr 2026 – Aug 2026</span>
+                            </div>
+                            <p class="exp-details">
+                                Designed an interactive Power BI dashboard analyzing customer segments, product performance, and delivery patterns for a Blinkit-style retail dataset across 5+ KPIs. Built automated data pipelines consolidating pricing and sales data to support business strategy decisions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Microsoft -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-brands fa-microsoft"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Microsoft Learn Student Ambassador (Beta) & Fabric Ambassador</h3>
+                                <span class="exp-org">Microsoft • Jan 2026 – Oct 2026</span>
+                            </div>
+                            <p class="exp-details">
+                                Promoted to Beta Ambassador rank. Conducted peer technical workshops, advocated Microsoft Fabric data tools, and actively participated in the Microsoft Product Champions Community.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tata Consultancy Services (TCS) -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-robot"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Gen AI Data Analyst Intern</h3>
+                                <span class="exp-org">Tata Consultancy Services (TCS) • Jun 2025 – Jul 2025</span>
+                            </div>
+                            <p class="exp-details">
+                                Applied Generative AI models and SQL for statistical data analysis, dataset summaries, and automated reporting workflows.
+                            </p>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_d8Pu6dbYwsQosW5Fa_1752559113882_completion_certificate.pdf" target="_blank" class="cert-verify-link">
+                                <i class="fa-solid fa-certificate"></i> View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Deloitte -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-building"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Data Specialist & Data Analyst Intern</h3>
+                                <span class="exp-org">Deloitte • Apr 2025 – May 2025</span>
+                            </div>
+                            <p class="exp-details">
+                                Analyzed and modeled 7 complex datasets (10,000+ rows) to uncover content trends and user behaviors, generating 15+ data-driven recommendations for business stakeholders using SQL and EDA.
+                            </p>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_d8Pu6dbYwsQosW5Fa_1746034358968_completion_certificate.pdf" target="_blank" class="cert-verify-link">
+                                <i class="fa-solid fa-certificate"></i> View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Lloyds Banking Group -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-vault"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Data Science Intern</h3>
+                                <span class="exp-org">Lloyds Banking Group • Apr 2025 – May 2025</span>
+                            </div>
+                            <p class="exp-details">
+                                Practiced data intelligence and Python data processing pipelines for financial data analytics and predictive modeling scenarios.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Accenture -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Data Analyst Intern</h3>
+                                <span class="exp-org">Accenture • Jun 2025 – Aug 2025</span>
+                            </div>
+                            <p class="exp-details">
+                                Executed data understanding, data modeling, client insight presentations, and agile decision-making simulations for UK enterprise clients.
+                            </p>
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_d8Pu6dbYwsQosW5Fa_1747916662816_completion_certificate.pdf" target="_blank" class="cert-verify-link">
+                                <i class="fa-solid fa-certificate"></i> View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Education / Teaching & Community (Udemy, Adobe, GFG, IBM, Snowflake) -->
+                    <div class="experience-item">
+                        <div class="exp-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="exp-info">
+                            <div class="exp-meta">
+                                <h3 class="exp-role">Data Analyst Udemy Instructor & Community Leader</h3>
+                                <span class="exp-org">Udemy • Adobe • GeeksforGeeks • IBM • Snowflake</span>
+                            </div>
+                            <p class="exp-details">
+                                Udemy Data Analyst Instructor creating courses on Data Visualization & Analysis. Adobe Creative Educator Leader, GeeksforGeeks Campus Mantri, IBM Campus Ambassador, and Snowflake Squad Member.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Community Section -->
+        <section class="section-padding" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Credentials & Community</span>
+                    <h2 class="section-heading">Certifications & Leadership</h2>
+                </div>
+
+                <!-- Cert Summary Box -->
+                <div class="cert-summary-row">
+                    <div class="cert-box">
+                        <i class="fa-solid fa-cloud brand-oracle"></i>
+                        <span class="cert-num">4x</span>
+                        <span class="cert-name">Oracle</span>
+                    </div>
+                    <div class="cert-box">
+                        <i class="fa-brands fa-aws brand-aws"></i>
+                        <span class="cert-num">2x</span>
+                        <span class="cert-name">AWS</span>
+                    </div>
+                    <div class="cert-box">
+                        <i class="fa-brands fa-microsoft brand-ms"></i>
+                        <span class="cert-num">2x</span>
+                        <span class="cert-name">Microsoft</span>
+                    </div>
+                    <div class="cert-box">
+                        <i class="fa-solid fa-brain brand-claude"></i>
+                        <span class="cert-num">1x</span>
+                        <span class="cert-name">Claude AI</span>
+                    </div>
+                    <div class="cert-box">
+                        <i class="fa-solid fa-server brand-redis"></i>
+                        <span class="cert-num">1x</span>
+                        <span class="cert-name">Redis</span>
+                    </div>
+                    <div class="cert-box">
+                        <i class="fa-solid fa-code brand-codopa"></i>
+                        <span class="cert-num">1x</span>
+                        <span class="cert-name">Codopa</span>
+                    </div>
+                </div>
+
+                <div class="cert-community-grid">
+                    <!-- Verified Certifications -->
+                    <div class="cert-card">
+                        <h3 class="card-heading"><i class="fa-solid fa-certificate"></i> Featured Certificates & Badges</h3>
+                        <ul class="cert-link-list">
+                            <li>
+                                <a href="https://coursera.org/share/8e358bc5cc4d845d2014a851836bcf2a" target="_blank" class="cert-item">
+                                    <div>
+                                        <div class="cert-item-title">Google Data Analytics Professional Certificate</div>
+                                        <div class="cert-item-sub">Coursera / Google</div>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.credly.com/users/abinesh-m.4be1eda4/badges/credly" target="_blank" class="cert-item">
+                                    <div>
+                                        <div class="cert-item-title">Credly Verified Badges Profile</div>
+                                        <div class="cert-item-sub">Credly • Excel & AI Badges</div>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://learn.microsoft.com/en-us/users/abineshm-1736/" target="_blank" class="cert-item">
+                                    <div>
+                                        <div class="cert-item-title">Microsoft Learn Official Profile</div>
+                                        <div class="cert-item-sub">Microsoft Learn Badges & Transcript</div>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://coursera.org/share/152024097e91a36a6815f7f2c8df2350" target="_blank" class="cert-item">
+                                    <div>
+                                        <div class="cert-item-title">Data Analysis and Visualization with Power BI</div>
+                                        <div class="cert-item-sub">Coursera</div>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://skillshop.credential.net/6a561bc9-41fb-4f50-a385-07de25d85512#acc.G9P5kF3d" target="_blank" class="cert-item">
+                                    <div>
+                                        <div class="cert-item-title">Certified Google Analytics Qualification</div>
+                                        <div class="cert-item-sub">Google Skillshop</div>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="see-more-link">
+                            <a href="https://www.linkedin.com/in/abinesh555/details/certifications/" target="_blank" class="btn btn-secondary btn-sm">
+                                View all 11+ Certificates on LinkedIn <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Ambassadorships & Roles -->
+                    <div class="cert-card">
+                        <h3 class="card-heading"><i class="fa-solid fa-people-group"></i> Ambassadorships & Community</h3>
+                        <div class="community-tags">
+                            <a href="https://learn.microsoft.com/en-us/users/abineshm-1736/" target="_blank" class="comm-tag"><i class="fa-brands fa-microsoft"></i> Microsoft Fabric Ambassador</a>
+                            <a href="https://learn.microsoft.com/en-us/users/abineshm-1736/" target="_blank" class="comm-tag"><i class="fa-brands fa-microsoft"></i> Microsoft Product Champion</a>
+                            <a href="https://learn.microsoft.com/en-us/users/abineshm-1736/" target="_blank" class="comm-tag"><i class="fa-solid fa-graduation-cap"></i> Microsoft Elevate Explorer</a>
+                            <a href="https://www.linkedin.com/in/abinesh555/" target="_blank" class="comm-tag"><i class="fa-brands fa-adobe"></i> Adobe Creative Educator Leader</a>
+                            <a href="https://www.linkedin.com/in/abinesh555/" target="_blank" class="comm-tag"><i class="fa-brands fa-adobe"></i> Adobe Student Ambassador</a>
+                            <a href="https://www.linkedin.com/in/abinesh555/" target="_blank" class="comm-tag"><i class="fa-brands fa-aws"></i> AWS SBCL Leader</a>
+                            <a href="https://www.linkedin.com/in/abinesh555/" target="_blank" class="comm-tag"><i class="fa-brands fa-aws"></i> AWS PartyRock Educator</a>
+                            <a href="https://www.linkedin.com/in/abinesh555/" target="_blank" class="comm-tag"><i class="fa-solid fa-snowflake"></i> Snowflake Squad Member</a>
+                            <a href="https://www.geeksforgeeks.org/profile/abineshm?from=explore" target="_blank" class="comm-tag"><i class="fa-solid fa-code"></i> GeeksforGeeks Leader</a>
+                        </div>
+
+                        <!-- Topmate Banner -->
+                        <div class="topmate-banner">
+                            <div class="topmate-badge">Top 1% Global Mentor</div>
+                            <h4>Mentorship on Topmate</h4>
+                            <p>I help students & tech aspirants with AI roadmaps, Data Analytics guidance, and resume reviews.</p>
+                            <a href="https://topmate.io/abinesh555" target="_blank" class="btn btn-primary btn-sm">
+                                Book 1:1 Session <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coding Profiles & Platforms -->
+                <div class="coding-profiles-box">
+                    <h3 class="card-heading"><i class="fa-solid fa-code-branch"></i> Coding & Developer Profiles</h3>
+                    <div class="coding-profiles-grid">
+                        <a href="https://leetcode.com/u/Abi_444/" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon leetcode"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <span class="profile-platform">LeetCode</span>
+                                <span class="profile-handle">@Abi_444</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.kaggle.com/techabinesh/competitions" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon kaggle"><i class="fa-brands fa-kaggle"></i></div>
+                            <div>
+                                <span class="profile-platform">Kaggle</span>
+                                <span class="profile-handle">@techabinesh</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.geeksforgeeks.org/profile/abineshm?from=explore" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon gfg"><i class="fa-solid fa-terminal"></i></div>
+                            <div>
+                                <span class="profile-platform">GeeksforGeeks</span>
+                                <span class="profile-handle">@abineshm</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.codechef.com/users/abinesh_004" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon codechef"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div>
+                                <span class="profile-platform">CodeChef</span>
+                                <span class="profile-handle">@abinesh_004</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.hackerrank.com/profile/m_abinesh555" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon hackerrank"><i class="fa-brands fa-hackerrank"></i></div>
+                            <div>
+                                <span class="profile-platform">HackerRank</span>
+                                <span class="profile-handle">@m_abinesh555</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/technicalabinesh" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon github"><i class="fa-brands fa-github"></i></div>
+                            <div>
+                                <span class="profile-platform">GitHub</span>
+                                <span class="profile-handle">@technicalabinesh</span>
+                            </div>
+                        </a>
+
+                        <a href="https://learn.microsoft.com/en-us/users/abineshm-1736/" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon mslearn"><i class="fa-brands fa-microsoft"></i></div>
+                            <div>
+                                <span class="profile-platform">Microsoft Learn</span>
+                                <span class="profile-handle">@abineshm-1736</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.credly.com/users/abinesh-m.4be1eda4/badges/credly" target="_blank" class="coding-profile-card">
+                            <div class="profile-icon credly"><i class="fa-solid fa-award"></i></div>
+                            <div>
+                                <span class="profile-platform">Credly Badges</span>
+                                <span class="profile-handle">abinesh-m</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LinkedIn Newsletter Banner -->
+                <div class="newsletter-banner">
+                    <div class="newsletter-content">
+                        <div class="newsletter-badge"><i class="fa-brands fa-linkedin"></i> LinkedIn Newsletter</div>
+                        <h3>Subscribe to My AI & Data Science Newsletter</h3>
+                        <p>Get insights on GenAI workflows, LangChain & RAG tutorials, Python scripts, and data analytics trends delivered on LinkedIn.</p>
+                    </div>
+                    <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7438598202628558848" target="_blank" class="btn btn-primary btn-md">
+                        <i class="fa-solid fa-bell"></i> Subscribe on LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-padding section-alt" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Contact</span>
+                    <h2 class="section-heading">Get in Touch</h2>
+                    <p class="section-subheading">Interested in collaborating on AI projects, data analytics, or mentorship?</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Direct Channels</h3>
+                        <p>Feel free to reach out via email, social networks, or book a direct 1:1 call.</p>
+
+                        <div class="contact-card-list">
+                            <div class="contact-card" id="copy-email" title="Click to copy email">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="card-label">Email (Click to copy)</span>
+                                    <span class="card-value">m.abinesh555@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <a href="https://www.linkedin.com/in/abinesh555" target="_blank" class="contact-card">
+                                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <span class="card-label">LinkedIn</span>
+                                    <span class="card-value">linkedin.com/in/abinesh555</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/technicalabinesh" target="_blank" class="contact-card">
+                                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                                <div>
+                                    <span class="card-label">GitHub</span>
+                                    <span class="card-value">github.com/technicalabinesh</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-box">
+                        <form id="contact-form">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Project Inquiry / Mentorship" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="Hello Abinesh, I would like to discuss..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <span class="footer-brand">Abinesh M</span>
+                <p>AI Engineer & Data Analyst • Tamil Nadu, India</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2026 Abinesh M. All rights reserved.</p>
+                <a href="#home" class="back-top-link"><i class="fa-solid fa-arrow-up"></i> Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CV Modal -->
+    <div class="modal" id="cv-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h3>Abinesh M — Resume Profile</h3>
+            <p><strong>Education:</strong> B.Tech in AI & Data Science (SSMIET) | CGPA: 8.35</p>
+            <p><strong>Vector DBs & RAG:</strong> Pinecone, ChromaDB, FAISS, LangChain, LangGraph, MCP</p>
+            <p><strong>AI Tools & Frameworks:</strong> Google AI Studio, ChatGPT, Gemini, DeepSeek, Claude, Copilot, Streamlit, Gradio, Databricks, n8n, Power Automate</p>
+            <p><strong>Libraries & Processing:</strong> TensorFlow, Sklearn, Statistics, OpenCV, Pillow, PyPDF, Tesseract OCR, RapidFuzz, Uvicorn, Pydantic</p>
+            <div class="modal-actions">
+                <a href="https://drive.google.com/file/d/1gbJ6lSkR2GNpihN3bs0J8cSMHnvM-GDS/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-file-pdf"></i> Open / Download PDF Resume (Google Drive)
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-root"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
