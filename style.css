@@ -844,7 +844,7 @@ body {
 /* Certifications & Community */
 .cert-summary-row {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
     margin-bottom: 2.5rem;
 }
@@ -869,6 +869,8 @@ body {
 .brand-claude { color: #f59e0b; }
 .brand-redis { color: #dc2626; }
 .brand-codopa { color: #06b6d4; }
+.brand-adobe { color: #fa0f00; }
+.brand-linkedin { color: #0a66c2; }
 
 .cert-num {
     font-family: var(--font-heading);
@@ -1164,6 +1166,8 @@ body {
 .profile-icon.github { background: rgba(255, 255, 255, 0.1); color: #ffffff; }
 .profile-icon.mslearn { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
 .profile-icon.credly { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+.profile-icon.medium { background: rgba(255, 255, 255, 0.12); color: #ffffff; }
+.profile-icon.amazon { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
 
 .profile-platform {
     display: block;
@@ -1215,6 +1219,53 @@ body {
     font-size: 0.9rem;
     color: var(--text-secondary);
     max-width: 650px;
+}
+
+/* Publication Banner (eBook & Medium) */
+.publication-banner {
+    margin-top: 2rem;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(239, 68, 68, 0.08) 100%);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: var(--radius-lg);
+    padding: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.publication-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.75rem;
+    background: rgba(245, 158, 11, 0.18);
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    color: var(--accent-amber);
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.publication-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+}
+
+.publication-content p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    max-width: 650px;
+}
+
+.publication-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
 }
 
 /* Footer */
